@@ -14,11 +14,12 @@
 		301D184D27B41650000B15A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184C27B41650000B15A0 /* Constants.swift */; };
 		301D184F27B418B0000B15A0 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184E27B418B0000B15A0 /* ProgressHUD.swift */; };
 		301D185227B41CB2000B15A0 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D185127B41CB2000B15A0 /* CircularProgressView.swift */; };
+		301D185627B43D0D000B15A0 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D185527B43D0D000B15A0 /* MockService.swift */; };
+		301D185827B43D98000B15A0 /* DashboardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D185727B43D98000B15A0 /* DashboardViewModelTests.swift */; };
 		30DC90CA27B3EE320066578D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90C927B3EE320066578D /* AppDelegate.swift */; };
 		30DC90CC27B3EE320066578D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90CB27B3EE320066578D /* SceneDelegate.swift */; };
 		30DC90D327B3EE340066578D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90D227B3EE340066578D /* Assets.xcassets */; };
 		30DC90D627B3EE340066578D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90D427B3EE340066578D /* LaunchScreen.storyboard */; };
-		30DC90E127B3EE340066578D /* Clear_Score_CreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90E027B3EE340066578D /* Clear_Score_CreditTests.swift */; };
 		30DC90EB27B3EE340066578D /* Clear_Score_CreditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90EA27B3EE340066578D /* Clear_Score_CreditUITests.swift */; };
 		30DC90ED27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90EC27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift */; };
 		30DC910427B3FA1B0066578D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC910327B3FA1B0066578D /* DashboardViewController.swift */; };
@@ -51,6 +52,8 @@
 		301D184C27B41650000B15A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		301D184E27B418B0000B15A0 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		301D185127B41CB2000B15A0 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		301D185527B43D0D000B15A0 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		301D185727B43D98000B15A0 /* DashboardViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModelTests.swift; sourceTree = "<group>"; };
 		30DC90C627B3EE320066578D /* Clear Score Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Score Credit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC90C927B3EE320066578D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30DC90CB27B3EE320066578D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		30DC90D527B3EE340066578D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DC90D727B3EE340066578D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DC90DC27B3EE340066578D /* Clear Score CreditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear Score CreditTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30DC90E027B3EE340066578D /* Clear_Score_CreditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Score_CreditTests.swift; sourceTree = "<group>"; };
 		30DC90E627B3EE340066578D /* Clear Score CreditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear Score CreditUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC90EA27B3EE340066578D /* Clear_Score_CreditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Score_CreditUITests.swift; sourceTree = "<group>"; };
 		30DC90EC27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Score_CreditUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -100,6 +102,22 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		301D185327B43CE8000B15A0 /* MockClass */ = {
+			isa = PBXGroup;
+			children = (
+				301D185527B43D0D000B15A0 /* MockService.swift */,
+			);
+			path = MockClass;
+			sourceTree = "<group>";
+		};
+		301D185427B43CF2000B15A0 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				301D185727B43D98000B15A0 /* DashboardViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
 		30DC90BD27B3EE320066578D = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +154,8 @@
 		30DC90DF27B3EE340066578D /* Clear Score CreditTests */ = {
 			isa = PBXGroup;
 			children = (
-				30DC90E027B3EE340066578D /* Clear_Score_CreditTests.swift */,
+				301D185327B43CE8000B15A0 /* MockClass */,
+				301D185427B43CF2000B15A0 /* ViewModelTests */,
 			);
 			path = "Clear Score CreditTests";
 			sourceTree = "<group>";
@@ -364,7 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DC90E127B3EE340066578D /* Clear_Score_CreditTests.swift in Sources */,
+				301D185827B43D98000B15A0 /* DashboardViewModelTests.swift in Sources */,
+				301D185627B43D0D000B15A0 /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

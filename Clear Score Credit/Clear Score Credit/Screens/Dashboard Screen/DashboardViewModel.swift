@@ -82,7 +82,7 @@ class DashboardViewModel {
         let score = getCreditScore()
         let maxScore = getMaxCreditScore()
         
-        return ((CGFloat(score) / CGFloat(maxScore)))
+        return (maxScore <= 0) ? 0.0 : ((CGFloat(score) / CGFloat(maxScore)))
     }
 
 }

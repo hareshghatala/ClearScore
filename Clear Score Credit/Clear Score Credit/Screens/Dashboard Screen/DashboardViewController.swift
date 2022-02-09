@@ -24,7 +24,8 @@ class DashboardViewController: UIViewController {
             self.dataBindingHandler()
         }
         viewModel.serviceFailur = {
-            // Handle UI change if any for service faliur
+            self.dataBindingHandler() /// setting default values on failur
+            // Handle UI change if any for service failur
         }
     }
     
