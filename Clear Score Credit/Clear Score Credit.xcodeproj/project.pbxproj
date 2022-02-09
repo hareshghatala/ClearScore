@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		301D184527B4158A000B15A0 /* CreditReportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184427B4158A000B15A0 /* CreditReportInfo.swift */; };
 		301D184727B415A3000B15A0 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184627B415A3000B15A0 /* Credit.swift */; };
+		301D184927B415F0000B15A0 /* URLSession+Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184827B415F0000B15A0 /* URLSession+Handler.swift */; };
+		301D184B27B4160B000B15A0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184A27B4160B000B15A0 /* Service.swift */; };
+		301D184D27B41650000B15A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D184C27B41650000B15A0 /* Constants.swift */; };
 		30DC90CA27B3EE320066578D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90C927B3EE320066578D /* AppDelegate.swift */; };
 		30DC90CC27B3EE320066578D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90CB27B3EE320066578D /* SceneDelegate.swift */; };
 		30DC90D327B3EE340066578D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90D227B3EE340066578D /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		301D184427B4158A000B15A0 /* CreditReportInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportInfo.swift; sourceTree = "<group>"; };
 		301D184627B415A3000B15A0 /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		301D184827B415F0000B15A0 /* URLSession+Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Handler.swift"; sourceTree = "<group>"; };
+		301D184A27B4160B000B15A0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		301D184C27B41650000B15A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		30DC90C627B3EE320066578D /* Clear Score Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Score Credit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC90C927B3EE320066578D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30DC90CB27B3EE320066578D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 		30DC90FD27B3F6320066578D /* Network Layer */ = {
 			isa = PBXGroup;
 			children = (
+				301D184827B415F0000B15A0 /* URLSession+Handler.swift */,
+				301D184A27B4160B000B15A0 /* Service.swift */,
 			);
 			path = "Network Layer";
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 		30DC90FF27B3F6590066578D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				301D184C27B41650000B15A0 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -324,11 +333,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				301D184727B415A3000B15A0 /* Credit.swift in Sources */,
+				301D184B27B4160B000B15A0 /* Service.swift in Sources */,
 				30DC90CA27B3EE320066578D /* AppDelegate.swift in Sources */,
 				301D184527B4158A000B15A0 /* CreditReportInfo.swift in Sources */,
 				30DC910427B3FA1B0066578D /* DashboardViewController.swift in Sources */,
 				30DC90CC27B3EE320066578D /* SceneDelegate.swift in Sources */,
+				301D184927B415F0000B15A0 /* URLSession+Handler.swift in Sources */,
 				30DC910927B40F0A0066578D /* DashboardViewModel.swift in Sources */,
+				301D184D27B41650000B15A0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
