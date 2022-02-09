@@ -25,13 +25,13 @@ class DashboardViewController: UIViewController {
     }
     
     func setupView() {
-        scoreContainerView.layer.cornerRadius = scoreContainerView.bounds.width / 2
-        scoreContainerView.layer.borderWidth = 2
-        scoreContainerView.layer.borderColor = UIColor.black.cgColor
+        self.scoreContainerView.layer.cornerRadius = self.scoreContainerView.frame.width / 2
+        self.scoreContainerView.layer.borderWidth = 2
+        self.scoreContainerView.layer.borderColor = UIColor.black.cgColor
         
-        circularProgressView.layer.cornerRadius = circularProgressView.bounds.width / 2
+        self.circularProgressView.layer.cornerRadius = self.circularProgressView.frame.width / 2
         
-        scoreInfoContainerView.layer.cornerRadius = scoreContainerView.bounds.width / 2
+        self.scoreInfoContainerView.layer.cornerRadius = self.scoreInfoContainerView.frame.width / 2
     }
     
 }
