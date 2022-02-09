@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		30DC90CA27B3EE320066578D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90C927B3EE320066578D /* AppDelegate.swift */; };
 		30DC90CC27B3EE320066578D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90CB27B3EE320066578D /* SceneDelegate.swift */; };
-		30DC90CE27B3EE320066578D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90CD27B3EE320066578D /* ViewController.swift */; };
-		30DC90D127B3EE320066578D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90CF27B3EE320066578D /* Main.storyboard */; };
 		30DC90D327B3EE340066578D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90D227B3EE340066578D /* Assets.xcassets */; };
 		30DC90D627B3EE340066578D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DC90D427B3EE340066578D /* LaunchScreen.storyboard */; };
 		30DC90E127B3EE340066578D /* Clear_Score_CreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90E027B3EE340066578D /* Clear_Score_CreditTests.swift */; };
 		30DC90EB27B3EE340066578D /* Clear_Score_CreditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90EA27B3EE340066578D /* Clear_Score_CreditUITests.swift */; };
 		30DC90ED27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC90EC27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift */; };
+		30DC910427B3FA1B0066578D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC910327B3FA1B0066578D /* DashboardViewController.swift */; };
+		30DC910727B404C80066578D /* LandingDashboardScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DC910627B404C80066578D /* LandingDashboardScreen.storyboard */; };
+		30DC910927B40F0A0066578D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC910827B40F0A0066578D /* DashboardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		30DC90C627B3EE320066578D /* Clear Score Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Score Credit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC90C927B3EE320066578D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30DC90CB27B3EE320066578D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30DC90CD27B3EE320066578D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30DC90D027B3EE320066578D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30DC90D227B3EE340066578D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30DC90D527B3EE340066578D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DC90D727B3EE340066578D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		30DC90E627B3EE340066578D /* Clear Score CreditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear Score CreditUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DC90EA27B3EE340066578D /* Clear_Score_CreditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Score_CreditUITests.swift; sourceTree = "<group>"; };
 		30DC90EC27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Score_CreditUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30DC910327B3FA1B0066578D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		30DC910627B404C80066578D /* LandingDashboardScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingDashboardScreen.storyboard; sourceTree = "<group>"; };
+		30DC910827B40F0A0066578D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,12 @@
 		30DC90C827B3EE320066578D /* Clear Score Credit */ = {
 			isa = PBXGroup;
 			children = (
-				30DC90C927B3EE320066578D /* AppDelegate.swift */,
-				30DC90CB27B3EE320066578D /* SceneDelegate.swift */,
-				30DC90CD27B3EE320066578D /* ViewController.swift */,
-				30DC90CF27B3EE320066578D /* Main.storyboard */,
-				30DC90D227B3EE340066578D /* Assets.xcassets */,
-				30DC90D427B3EE340066578D /* LaunchScreen.storyboard */,
-				30DC90D727B3EE340066578D /* Info.plist */,
+				30DC90F927B3F4CA0066578D /* App Config */,
+				30DC90FA27B3F4DC0066578D /* Screens */,
+				30DC90FC27B3F51C0066578D /* Models */,
+				30DC90FD27B3F6320066578D /* Network Layer */,
+				30DC90FF27B3F6590066578D /* Helper */,
+				30DC910027B3F6670066578D /* Resource */,
 			);
 			path = "Clear Score Credit";
 			sourceTree = "<group>";
@@ -125,6 +126,64 @@
 				30DC90EC27B3EE340066578D /* Clear_Score_CreditUITestsLaunchTests.swift */,
 			);
 			path = "Clear Score CreditUITests";
+			sourceTree = "<group>";
+		};
+		30DC90F927B3F4CA0066578D /* App Config */ = {
+			isa = PBXGroup;
+			children = (
+				30DC90C927B3EE320066578D /* AppDelegate.swift */,
+				30DC90CB27B3EE320066578D /* SceneDelegate.swift */,
+				30DC90D727B3EE340066578D /* Info.plist */,
+			);
+			path = "App Config";
+			sourceTree = "<group>";
+		};
+		30DC90FA27B3F4DC0066578D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				30DC910627B404C80066578D /* LandingDashboardScreen.storyboard */,
+				30DC90FB27B3F4E80066578D /* Dashboard Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		30DC90FB27B3F4E80066578D /* Dashboard Screen */ = {
+			isa = PBXGroup;
+			children = (
+				30DC910327B3FA1B0066578D /* DashboardViewController.swift */,
+				30DC910827B40F0A0066578D /* DashboardViewModel.swift */,
+			);
+			path = "Dashboard Screen";
+			sourceTree = "<group>";
+		};
+		30DC90FC27B3F51C0066578D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30DC90FD27B3F6320066578D /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		30DC90FF27B3F6590066578D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30DC910027B3F6670066578D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				30DC90D427B3EE340066578D /* LaunchScreen.storyboard */,
+				30DC90D227B3EE340066578D /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +292,7 @@
 			files = (
 				30DC90D627B3EE340066578D /* LaunchScreen.storyboard in Resources */,
 				30DC90D327B3EE340066578D /* Assets.xcassets in Resources */,
-				30DC90D127B3EE320066578D /* Main.storyboard in Resources */,
+				30DC910727B404C80066578D /* LandingDashboardScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DC90CE27B3EE320066578D /* ViewController.swift in Sources */,
 				30DC90CA27B3EE320066578D /* AppDelegate.swift in Sources */,
+				30DC910427B3FA1B0066578D /* DashboardViewController.swift in Sources */,
 				30DC90CC27B3EE320066578D /* SceneDelegate.swift in Sources */,
+				30DC910927B40F0A0066578D /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30DC90CF27B3EE320066578D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30DC90D027B3EE320066578D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30DC90D427B3EE340066578D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,10 +492,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Clear Score Credit/Info.plist";
+				INFOPLIST_FILE = "Clear Score Credit/App Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LandingDashboardScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -468,10 +520,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Clear Score Credit/Info.plist";
+				INFOPLIST_FILE = "Clear Score Credit/App Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LandingDashboardScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
